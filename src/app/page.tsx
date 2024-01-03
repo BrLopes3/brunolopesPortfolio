@@ -1,16 +1,52 @@
 import Image from 'next/image'
+import { Header } from './components/header/header'
 
 
 export default function Home() {
   return (
     <main>
-      <Image
-        src="/vercel.svg"
-        alt="Vercel Logo"
-        width={100}
-        height={24}
-        priority
-      />
+     <Header />
+      <div className='experience'>
+        <h3>Experience</h3>
+        <p>Software Developer and Electrical Engineer with experience in electrical projects and technical documentation, searching for a oportunity as junior software developer.</p>
+
+        <div className="experience-time">
+
+        </div>
+
+        <div className="infos">
+          <h3>Languages</h3>
+          <div className="languages-info">
+            <span>🇧🇷 Portuguese - Native Speaker</span>
+            <span>🇨🇦 English - Fluent</span>
+            <span>🇫🇷 French - Intermediate</span>
+          </div>
+          <h3>Education</h3>
+          <div className="education-info">
+
+            <span>🎓</span>
+            <span>Computer Programming Analyst - Lasalle College, Montreal - CA</span>
+            <span>Electrical Engineering - Federal University of Pernambuco, Brazil</span>
+
+          </div>
+
+          <div className="buttons">
+            <button>Resume</button>
+            <button>Linkedin</button>
+            <button>Github</button>
+            <button>Contact me</button>
+
+          </div>
+
+          
+        </div>
+
+
+      </div>
+
+    
+
+      
      
     </main>
   )
