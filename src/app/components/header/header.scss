@@ -1,13 +1,19 @@
 .header{
+    grid-area: header;
     display: flex;
     flex-direction: column;
+    gap: 24px;
+    
 
-    color: var(--text-primary);
+    img{
+        border-radius: 24px;
+    }
 
     h1{
         font-weight: 600;
         font-size: 28px;
         line-height: 42px;
+        color: var(--text-primary);
     }
 
     h2{
@@ -15,6 +21,7 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;
+        color: var(--text-secondary);
     }
 
 
@@ -24,6 +31,12 @@
     .header{
         flex-direction: row-reverse;
         justify-content:left;
+        align-items: center;
+        
+        img{
+            border-radius: 100%;
+            border: white 2px solid;
+        }
 
         h1{
             font-size: 36px;

@@ -10,10 +10,10 @@ export function Header() {
             </div>
             
             <Image
-            src="/vercel.svg"
-            alt="Vercel Logo"
-            width={100}
-            height={24}
+            src="/photoBruno3.jpeg"
+            alt="BrunoPhoto"
+            width={325}
+            height={400}
             priority
             />
         </div>
