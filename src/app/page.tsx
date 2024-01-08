@@ -1,6 +1,8 @@
 import { Experience } from './components/experience/experience'
 import { Header } from './components/header/header'
+import { EmailIcon } from './components/icons/email-icon'
 import { Information } from './components/information/information'
+import { SocialBtns } from './components/social-btns/social-btns'
 import './styles/home.scss'
 
 export default function Home() {
@@ -11,10 +13,11 @@ export default function Home() {
      <Information />
 
       <div className="buttons">
-        <button>Resume</button>
-        <button>Linkedin</button>
-        <button>Github</button>
-        <button className='btn-primary'>Contact me</button>
+        <SocialBtns />
+        <button className='btn-primary'>
+          Contact me
+          <EmailIcon />
+        </button>
 
       </div>
      
