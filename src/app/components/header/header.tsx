@@ -10,9 +10,9 @@ export function Header() {
             </div>
             
             <Image
-                src="/photoBruno3.jpeg"
+                src="/photoBrunoFinal.jpeg"
                 alt="BrunoPhoto"
-                width={300}
+                width={400}
                 height={400}
                 priority
             />
