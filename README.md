@@ -1,3 +1,6 @@
+# Personal Portfolio
+Webpage created by me as a personal portfolio where I talk a little about myself and my experiences and with links to my LinkedIn and Github page.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
