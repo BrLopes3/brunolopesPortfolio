@@ -1,7 +1,7 @@
 # Personal Portfolio
 Webpage created by me as a personal portfolio where I talk a little about myself and my experiences and with links to my LinkedIn and Github page.
 
-brunolopes-portfolio.vercel.app
+[brunolopes-portfolio.vercel.app](https://brunolopes-portfolio.vercel.app/)
 
 
 
