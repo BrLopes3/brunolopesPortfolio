@@ -1,13 +1,13 @@
 .container {
-  gap: 24px;
+  //gap: 24px;
   margin-bottom: 20px;
   justify-items: center;
-  grid-template-rows: repeat(4, auto);
+ /*  grid-template-rows: repeat(4, auto);
   grid-template-areas:
   'header'
   'btns'
   'experience'
-  'info';
+  'info'; */
 
   .buttons{
 
@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 16px;
     gap: 24px;
     grid-area: btns;
     width: 100%;

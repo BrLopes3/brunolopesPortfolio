@@ -9,10 +9,7 @@ export default function Home() {
   return (
     <main className='container'>
      <Header />
-     <Experience />
-     <Information />
-
-      <div className="buttons">
+     <div className="buttons">
         <SocialBtns />
         <a className='btn-primary' href='mailto:br.lopes22@gmail.com'>
           Contact me
@@ -20,6 +17,11 @@ export default function Home() {
         </a>
 
       </div>
+
+     <Experience />
+     <Information />
+
+    
      
     </main>
   )
