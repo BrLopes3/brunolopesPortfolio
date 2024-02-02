@@ -15,7 +15,6 @@ export default function Home() {
           Contact me
           <EmailIcon />
         </a>
-
       </div>
 
      <Experience />
