@@ -6,7 +6,7 @@ const inter = Poppins({ subsets: ['latin'], weight:['300', '400', '500', '600'] 
 
 export const metadata: Metadata = {
   title: 'Bruno Lopes',
-  description: 'Bruno Lopes is a software and Electrical engineer based in Montreal - CA.',
+  description: 'Bruno Lopes is a software developer and Electrical engineer based in Montreal - CA.',
 }
 
 export default function RootLayout({
