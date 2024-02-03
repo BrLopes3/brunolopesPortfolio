@@ -27,48 +27,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-right: 10px;
+        margin-bottom: 20px;
         gap: 12px;
-
-        .experience-unit{
-            
-            width: 250px;
-            height: 30px;
-            border-radius: 24px;
-            border: 1px solid var(--text-secondary);
-
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-
-            .experience-measure{
-
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                border-radius: 24px;
-                height: 30px;
-                background: linear-gradient( 90deg, #777CF4 2.62%, #F47777 93.38%);
-                border: 1px solid linear-gradient( 90deg, #777CF4 2.62%, #F47777 93.38%);
-
-                color: var(--text-primary);
-                font-weight: 300;
-                text-align: center;
-                font-size: 12px;
-
-                &.measure-1{
-                    width: 33%;
-                }
-                &.measure-2{
-                    width: 66%;
-                }
-                &.measure-3{
-                    width: 100%;  
-                }
-
-            }
-                 
-        }
 
     }
 
@@ -84,9 +45,14 @@
            
         }
 
-        .experience-unit{ 
-            width: 400px;
+        .experience-time{ 
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content:space-between;
         }
+
+        
     }
    
    
