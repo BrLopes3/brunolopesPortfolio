@@ -8,7 +8,7 @@ export function Experience() {
     return (
         <div className="experience">
             <SectionTitle text='Experience' />
-            <p>Software Developer and Electrical Engineer with experience in electrical projects and technical documentation, with robust skill set for problem-solving and project management. I'm searching for a oportunity as junior software developer.</p>
+            <p>Software Developer and Electrical Engineer with experience in electrical projects and technical documentation, with robust skill set for problem-solving and project management.</p>
 
             <SectionTitle text='Programming Languages' />
             <div className="experience-time">
@@ -43,7 +43,7 @@ export function Experience() {
                 </div>
                 <div className='experience-language'>
                     <Image src="/javaIcon.png" alt="Java-icon" width={50} height={50} priority />
-                   
+
                 </div>
                 
             </div>

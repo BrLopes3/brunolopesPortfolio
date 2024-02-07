@@ -1,0 +1,27 @@
+.footer{
+    display: grid;
+    grid-area: footer;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    color: var(--text-secondary);
+    flex-direction: column;
+    border-top: 1px solid var(--text-secondary);
+
+
+
+    p, a{
+        color:whitesmoke;
+        
+    }
+
+    @media (min-width: 768px){
+        align-items:center;
+        width: 100vw;
+        display: flex;
+        width: 100%;
+        margin-top: 50px;
+        bottom: 0;
+    }
+}

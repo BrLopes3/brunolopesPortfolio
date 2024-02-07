@@ -5,14 +5,12 @@
     align-items: center;
     width: 100%;
     grid-area: info;
-
-    max-width: 500px;
-    gap: 24px;
+    max-width: 600px;
+    
 
     .languages-info{
         display: flex;
-        flex-direction: column;
-        gap: 24px;
+        flex-direction: column;      
         align-items: flex-start;
         width: 100%;
     }
@@ -20,17 +18,23 @@
     .education-info{
         display: flex;
         flex-direction: column;
-        gap: 24px;
         align-items: flex-start;
         width: 100%;
     }
 
-    span{
-        color: var(--text-secondary);
+    h3{
+        color: var(--text-primary);
         font-size: 18px;
 
         @media(min-width: 1040px){
             font-size: 20px;
         }
     }
+
+    p{
+        color: var(--text-secondary);
+        font-size: 18px;
+    }
+
+   
 }

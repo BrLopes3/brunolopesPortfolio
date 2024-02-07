@@ -1,13 +1,15 @@
 .container {
-  //gap: 24px;
+  gap: 24px; //changed
   margin-bottom: 20px;
   justify-items: center;
- /*  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(6, auto); //changed
   grid-template-areas:
   'header'
   'btns'
   'experience'
-  'info'; */
+  'info'
+  'projects'
+  'footer'; 
 
   .buttons{
 
@@ -49,7 +51,7 @@
   @media(min-width: 1040px){
     display: grid; //adicionado
     padding: 22px 60px;
-    height: 100vh;
+    height: auto;
     grid-template-rows: fit-content(100%);
     grid-template-columns: 60% 30%;
     align-items: center;
@@ -57,8 +59,9 @@
     justify-content: space-between;
     grid-template-areas: 
     'header info'
-    'experience btns';
-    //'projects projects';
+    'experience btns'
+    'projects projects'
+    'footer footer';
 
     .btn-primary{ 
       width: 325px;

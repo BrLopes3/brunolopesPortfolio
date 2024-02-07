@@ -4,8 +4,8 @@ import './header.scss'
 export function Header() {
     return(
         <div className='header'>
-            <div>
-            <h1>Bonjour/Hi, I am Bruno Lopes 👋</h1>
+            <div id='presentation'>
+            <h1>Hi, I am Bruno Lopes 👋</h1>
             <h2>Software Developer</h2>
             </div>
             

@@ -6,16 +6,24 @@ export function Information() {
         <div className="infos">
         <SectionTitle text='Languages' />
         <div className="languages-info">
-          <span>🇧🇷 Portuguese - Native Speaker</span>
-          <span>🇨🇦 English - Fluent</span>
-          <span>🇫🇷 French - Intermediate</span>
+          <p>🇧🇷 Portuguese - Native </p>
+          <p>🇨🇦 English - Fluent </p>
+          <p>🇫🇷 French - Intermediate </p>
         </div>
         <SectionTitle text='Education' />
         <div className="education-info">
-
-          <span>🎓 Computer Programming Analyst - Lasalle College, Montreal - CA</span>
-          <span>🎓 Electrical Engineering - Federal University of Pernambuco, Brazil</span>
-
+          <div>
+            <h3>Computer Programming Analyst</h3>
+            <p>🎓 Lasalle College, Montreal - CA</p>
+          </div>
+          <div>
+            <h3>Electrical Engineering</h3>
+            <p>🎓 Univ. Federal de Pernambuco, Pernambuco - BR</p> 
+          </div>
+          <div>
+            <h3> Google Data Analytics</h3>
+            <p>🎓 Coursera, Google Certification</p>
+          </div>
         </div>
 
       </div>

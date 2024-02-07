@@ -9,7 +9,6 @@ export function Projects() {
     return (
         <div className="projects">
             <SectionTitle text='Projects' />
-            {/* <p>Here are some of my personal projects </p> */}
             <div className="projects-container">
                 <div className="projects-examples">
                     <div className="project">

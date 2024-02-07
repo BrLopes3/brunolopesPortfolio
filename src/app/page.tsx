@@ -1,4 +1,5 @@
 import { Experience } from './components/experience/experience'
+import { Footer } from './components/footer/footer'
 import { Header } from './components/header/header'
 import { EmailIcon } from './components/icons/email-icon'
 import { Information } from './components/information/information'
@@ -21,9 +22,7 @@ export default function Home() {
      <Experience />
      <Projects />
      <Information />
-
-    
-     
+     <Footer />
     </main>
   )
 }
