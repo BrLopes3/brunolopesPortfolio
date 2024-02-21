@@ -45,6 +45,10 @@ export function Experience() {
                     <Image src="/javaIcon.png" alt="Java-icon" width={50} height={50} priority />
 
                 </div>
+                <div className='experience-language'>
+                    <Image src="/matlabicon.png" alt="Java-icon" width={50} height={50} priority />
+
+                </div>
                 
             </div>
         </div>
