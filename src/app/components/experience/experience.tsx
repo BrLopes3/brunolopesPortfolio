@@ -13,40 +13,40 @@ export function Experience() {
             <SectionTitle text='Programming Languages' />
             <div className="experience-time">
 
-                <div className='experience-language'>
-                    <Image src="/c-sharpIcon.png" alt="Csharp-icon" width={50} height={50} priority />
+                <div className='experience-language' data-language="C#">
+                    <Image src="/c-sharpIcon.png" alt="C#" width={50} height={50} priority />
                     
                 </div>
-                <div className='experience-language'>
-                    <Image src="/jsIcon.png" alt="JS-icon" width={50} height={50} priority />
+                <div className='experience-language' data-language="JavaScript">
+                    <Image src="/jsIcon.png" alt="JavaScript" width={50} height={50} priority />
                    
                 </div>
-                <div className='experience-language'>
-                    <Image src="/reactIcon.png" alt="React-icon" width={50} height={50} priority />
+                <div className='experience-language' data-language="React">
+                    <Image src="/reactIcon.png" alt="React" width={50} height={50} priority />
                    
                 </div>
-                <div className='experience-language'>
-                    <Image src="/phpIcon.png" alt="Php-icon" width={50} height={50} priority />
+                <div className='experience-language' data-language="Php">
+                    <Image src="/phpIcon.png" alt="Php" width={50} height={50} priority />
                    
                 </div>
-                <div className='experience-language'>
-                    <Image src="/pythonIcon.png" alt="Python-icon" width={50} height={50} priority />
+                <div className='experience-language' data-language="Python">
+                    <Image src="/pythonIcon.png" alt="Python" width={50} height={50} priority />
                    
                 </div>
-                <div className='experience-language'>
-                    <Image src="/swiftIcon.png" alt="Swift-icon" width={50} height={50} priority />
+                <div className='experience-language' data-language="Swift">
+                    <Image src="/swiftIcon.png" alt="Swift" width={50} height={50} priority />
                    
                 </div>
-                <div className='experience-language'>
-                    <Image src="/androidIcon.png" alt="Android-icon" width={50} height={50} priority />
+                <div className='experience-language' data-language="Android">
+                    <Image src="/androidIcon.png" alt="Android" width={50} height={50} priority />
                    
                 </div>
-                <div className='experience-language'>
-                    <Image src="/javaIcon.png" alt="Java-icon" width={50} height={50} priority />
+                <div className='experience-language' data-language="Java">
+                    <Image src="/javaIcon.png" alt="Java" width={50} height={50} priority />
 
                 </div>
-                <div className='experience-language'>
-                    <Image src="/matlabicon.png" alt="Java-icon" width={50} height={50} priority />
+                <div className='experience-language' data-language="Matlab">
+                    <Image src="/matlabicon.png" alt="Matlab" width={50} height={50} priority />
 
                 </div>
                 
