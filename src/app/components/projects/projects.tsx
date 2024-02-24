@@ -7,7 +7,7 @@ import exp from 'constants'
 
 export function Projects() {
     return (
-        <div className="projects">
+        <div className="projects" id="proj">
             <SectionTitle text='Projects' />
             <div className="projects-container">
                 <div className="projects-examples">

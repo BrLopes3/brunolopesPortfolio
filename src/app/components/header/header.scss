@@ -5,6 +5,16 @@
     gap: 24px;
     align-items:center;
 
+    nav{
+        a{
+            color: var(--text-secondary);
+            text-decoration: none;
+        }
+        
+        display: flex;
+        gap: 24px;
+    }
+    
     img{
         border-radius: 24px;
         
@@ -28,12 +38,13 @@
 
 }
 
+
 @media (min-width: 768px) {
     .header{
         flex-direction: column-reverse; //row-reverse
         justify-content:left;
-        align-items: flex-start;
-        
+        align-items: center;
+
         img{
             border-radius: 100%;
             border: white 2px solid;
@@ -48,6 +59,16 @@
             font-size: 30px;
             line-height: 45px;
             font-style: normal;
+        }
+
+
+        a{
+            color: var(--text-primary);
+            font-size: 20px;
+        }
+
+        a:hover{
+            text-decoration: underline;
         }
     }
 }

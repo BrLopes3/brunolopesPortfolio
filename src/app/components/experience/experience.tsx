@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export function Experience() {
     return (
-        <div className="experience">
+        <div className="experience" id="exp">
             <SectionTitle text='Experience' />
             <p>Software Developer and Electrical Engineer with experience in electrical projects and technical documentation, with robust skill set for problem-solving and project management.</p>
 
