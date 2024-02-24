@@ -27,6 +27,14 @@ export function Projects() {
                         <h3>Edit Photos</h3>
                         <a href="https://github.com/BrLopes3/EditPhotos.git"><Image src="/editPhotoLogo.png" alt="Edit_Photos" width={200} height={200} priority /><figcaption>Python application</figcaption></a>
                     </div>
+                    <div className="project">
+                        <h3>BMI Calculator</h3>
+                        <a href="https://github.com/BrLopes3/BMICalculator.git"><Image src="/bmilogo.png" alt="BMICalculator" width={200} height={200} priority /><figcaption>IOS application</figcaption></a>
+                    </div>
+                    <div className="project">
+                        <h3>Student Management</h3>
+                        <a href="https://github.com/BrLopes3/Students_Enrollments.git"><Image src="/studentmanagement.png" alt="Student_Enrollment" width={200} height={200} priority /><figcaption>C# application</figcaption></a>
+                    </div>
                 </div>
             </div>
         </div>
