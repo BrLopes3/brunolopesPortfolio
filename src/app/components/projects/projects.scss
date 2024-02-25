@@ -1,6 +1,6 @@
 .projects{
-    display: grid;
-    grid-area: projects;
+    display: flex;
+    grid-area:projects;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -17,8 +17,8 @@
     }
 
     @media (min-width: 768px){
-        align-items: center;
-        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: center;
         width: 100vw;
        
         p{

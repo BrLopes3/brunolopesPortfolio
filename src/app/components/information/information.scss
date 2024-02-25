@@ -36,5 +36,12 @@
         font-size: 18px;
     }
 
+    @media(min-width: 768px){
+        align-items: flex-start;
+        justify-content: center;
+        width: 100vw;
+        
+    }
+
    
 }

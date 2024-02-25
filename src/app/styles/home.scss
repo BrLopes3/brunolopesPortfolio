@@ -2,6 +2,8 @@
   gap: 24px; //changed
   margin-bottom: 20px;
   justify-items: center;
+  align-items: center;
+  justify-content: center;
   grid-template-rows: repeat(6, auto); //changed
   grid-template-areas:
   'header'
@@ -20,7 +22,7 @@
     margin-top: 16px;
     gap: 24px;
     grid-area: btns;
-    width: 100%;
+    //width: 100vw;
 
     .btn-primary{
 

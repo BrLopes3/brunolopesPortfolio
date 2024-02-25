@@ -13,9 +13,9 @@ export function Header() {
             <Image
                 src="/photoBrunoFinal.jpeg"
                 alt="BrunoPhoto"
-                width={400}
-                height={400}
-                priority
+                width={300}
+                height={300}
+                //priority
             />
 
             
