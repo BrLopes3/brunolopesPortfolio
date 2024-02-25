@@ -9,6 +9,7 @@
         a{
             color: var(--text-secondary);
             text-decoration: none;
+            font-style: italic;
         }
         
         display: flex;
@@ -16,8 +17,7 @@
     }
     
     img{
-        border-radius: 24px;
-        
+        border-radius: 24px; 
     }
 
     h1{
@@ -35,8 +35,18 @@
         color: var(--text-secondary);
     }
 
+    #bruno{
+        a{
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-style: italic;
+        }
+    }
+
 
 }
+
+
 
 
 @media (min-width: 768px) {
@@ -72,5 +82,9 @@
         a:hover{
             text-decoration: underline;
         }
+
+        
+        
     }
 }
+
