@@ -18,7 +18,7 @@ export function Information() {
           </div>
           <div>
             <h3>Electrical Engineering</h3>
-            <p>🎓 Univ. Federal de Pernambuco, Pernambuco - BR</p> 
+            <p>🎓 Univ. Federal de Pernambuco - BR</p> 
           </div>
           <div>
             <h3> Google Data Analytics</h3>
