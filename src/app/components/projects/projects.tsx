@@ -33,7 +33,7 @@ export function Projects() {
                     </div>
                     <div className="project">
                         <h3>Student Management</h3>
-                        <a href="https://github.com/BrLopes3/Students_Enrollments.git"><Image src="/studentmanagement.png" alt="Student_Enrollment" width={200} height={200} priority /><figcaption>C# application</figcaption></a>
+                        <a href="https://github.com/BrLopes3/Students_Enrollments.git"><Image src="/studentmanagement.png" alt="Student_Enrollment" width={200} height={200} priority /><figcaption>C# ASP.NET application</figcaption></a>
                     </div>
                 </div>
             </div>
