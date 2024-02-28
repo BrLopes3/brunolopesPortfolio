@@ -10,7 +10,7 @@ export function Experience() {
             <SectionTitle text='Experience' />
             <p>Software Developer and Electrical Engineer with experience in electrical projects and technical documentation, with robust skill set for problem-solving and project management.</p>
 
-            <SectionTitle text='Programming Languages' />
+            <SectionTitle text='Programming Skills' />
             <div className="experience-time">
 
                 <div className='experience-language' data-language="C#">
