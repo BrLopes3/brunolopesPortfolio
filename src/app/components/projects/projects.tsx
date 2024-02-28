@@ -35,6 +35,10 @@ export function Projects() {
                         <h3>Student Management</h3>
                         <a href="https://github.com/BrLopes3/Students_Enrollments.git"><Image src="/studentmanagement.png" alt="Student_Enrollment" width={200} height={200} priority /><figcaption>C# ASP.NET application</figcaption></a>
                     </div>
+                    <div className="project">
+                        <h3>Battery Model</h3>
+                        <a href="https://github.com/BrLopes3/Battery_Model.git"><Image src="/baterymodel.png" alt="Battery_Model" width={200} height={200} priority /><figcaption>Matlab Simulink application</figcaption></a>
+                    </div>
                 </div>
             </div>
         </div>
