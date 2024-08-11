@@ -8,7 +8,7 @@ export function Header() {
             <div id="bruno">
                 <h1>Hi, I am Bruno Lopes 👋</h1>
                 <h2>Software Developer</h2>
-                <a href="/bruno_cv.pdf" download>Download my CV here &#x1F4C3;</a>
+                <a href="/BrunoResume_2024.pdf" download>Download my CV here &#x1F4C3;</a>
             </div>
             
             <Image
